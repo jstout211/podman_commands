@@ -57,5 +57,6 @@ podman load  -i fedora.tar
 ## Cleaning cache
 ```
 https://www.freecodecamp.org/news/docker-cache-tutorial/
+https://docs.docker.com/config/pruning/
 ```
 
