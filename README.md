@@ -21,9 +21,9 @@ ENTRYPOINT
 
 
 
-
-`podman image list`
-`podman container list`
+#### Helpful functions
+`podman image list` <br>
+`podman container list` <br>
 
 ### Get a bash terminal to run freesurfer commands
 `podman run --rm -it localhost/freesurfer:latest bash`
