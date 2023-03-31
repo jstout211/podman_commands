@@ -34,3 +34,10 @@ docker exec -it my_container bash
 
 If bash does not run - may need to add flags to entrypoint <br>
 https://stackoverflow.com/questions/61055324/docker-cannot-execute-binary-file
+
+Docker/Podman with github actions: <br>
+https://dev.to/mihinduranasinghe/using-docker-containers-in-jobs-github-actions-3eof
+
+Running jobs in docker container on github actions: <br>
+https://docs.github.com/en/actions/using-jobs/running-jobs-in-a-container
+
