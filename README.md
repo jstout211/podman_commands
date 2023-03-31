@@ -54,3 +54,8 @@ podman push {IMAGEID} docker://hub.docker.com/repository/docker/{USERID}/{REPO}:
 podman load  -i fedora.tar
 ```
 
+## Cleaning cache
+```
+https://www.freecodecamp.org/news/docker-cache-tutorial/
+```
+
