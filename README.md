@@ -44,6 +44,7 @@ Running jobs in docker container on github actions: <br>
 https://docs.github.com/en/actions/using-jobs/running-jobs-in-a-container
 
 ## Pushing to docker hub
+Not sure why but docker login works, but just standard docker push does not without the --creds tag (use as below until other options work)
 ```
 podman push {IMAGEID} docker://hub.docker.com/repository/docker/{USERID}/{REPO}:{TAG} --creds {USERID}:{TOKEN}
 ```
