@@ -43,6 +43,11 @@ https://dev.to/mihinduranasinghe/using-docker-containers-in-jobs-github-actions-
 Running jobs in docker container on github actions: <br>
 https://docs.github.com/en/actions/using-jobs/running-jobs-in-a-container
 
+## Pushing to docker hub
+```
+podman push {IMAGEID} docker://hub.docker.com/repository/docker/{USERID}/{REPO}:{TAG} --creds {USERID}:{TOKEN}
+```
+
 ## Importing from a tar file
 ```
 podman load  -i fedora.tar
