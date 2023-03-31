@@ -31,3 +31,6 @@ ENTRYPOINT
 docker run --detach --name my_container -it ubuntu:latest
 docker exec -it my_container bash
 ```
+
+If bash does not run - may need to add flags to entrypoint <br>
+https://stackoverflow.com/questions/61055324/docker-cannot-execute-binary-file
