@@ -7,6 +7,9 @@
 
 ### Sections of dockerfile
 ```
+FROM debian:buster-slim
+ENV OS="Linux" \   
+   ....
 RUN
 ENTRYPOINT
 ...
